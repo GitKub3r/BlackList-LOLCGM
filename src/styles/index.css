@@ -1,1 +1,24 @@
 @import "./color.css";
+
+:root {
+  margin: 0;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: var(--blacklist-bg-secondary);
+    color: var(--blacklist-text-light-primary);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: var(--blacklist-bg-primary);
+    color: var(--blacklist-text-dark-primary);
+  }
+}
