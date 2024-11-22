@@ -1,0 +1,32 @@
+:root {
+  /* CSS Color Variables */
+  --blacklist-bg-primary: #dfdfdf;
+  --blacklist-bg-primary-contrast: #bfbfbf;
+  --blacklist-bg-secondary: #1f1f1f;
+  --blacklist-bg-secondary-contrast: #3f3f3f;
+
+  --blacklist-text-dark-primary: #2f2f2f;
+  --blacklist-text-dark-secondary: #4f4f4f;
+  --blacklist-text-dark-tertiary: #6f6f6f;
+
+  --blacklist-link-primary: #ebebeb;
+  --blacklist-link-secondary: #0b0b0b;
+
+  --blacklist-button-hover: #323232;
+
+  /* CSS Size and Space Variables */
+  --blacklist-size-none: 0;
+  --blacklist-space-none: 0;
+
+  --blacklist-size-quarter: 25%;
+  --blacklist-space-quarter: 25%;
+
+  --blacklist-size-half: 50%;
+  --blacklist-space-half: 50%;
+
+  --blacklist-size-most: 75%;
+  --blacklist-space-most: 75%;
+
+  --blacklist-size-full: 100%;
+  --blacklist-space-full: 100%;
+}
