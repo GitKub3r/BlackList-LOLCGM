@@ -13,6 +13,15 @@
   font-optical-sizing: auto;
 }
 
+body {
+  background: linear-gradient(
+    45deg,
+    var(--blacklist-bg-secondary),
+    var(--blacklist-bg-secondary-contrast),
+    var(--blacklist-bg-secondary)
+  );
+}
+
 /* General CSS Styles */
 
 h1 {
