@@ -1,8 +1,12 @@
 @import "./color.css";
 
-:root {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -14,11 +18,21 @@
     background-color: var(--blacklist-bg-secondary);
     color: var(--blacklist-text-light-primary);
   }
+
+  a {
+    color: var(--blacklist-link-primary);
+    text-decoration: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     background-color: var(--blacklist-bg-primary);
     color: var(--blacklist-text-dark-primary);
+  }
+
+  a {
+    color: var(--blacklist-link-secondary);
+    text-decoration: none;
   }
 }
