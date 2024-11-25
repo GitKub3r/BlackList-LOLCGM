@@ -13,26 +13,31 @@
   font-optical-sizing: auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    background-color: var(--blacklist-bg-secondary);
-    color: var(--blacklist-text-light-primary);
-  }
+/* General CSS Styles */
 
-  a {
-    color: var(--blacklist-link-primary);
-    text-decoration: none;
-  }
+h1 {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
+  letter-spacing: 0.25rem;
+  color: var(--blacklist-text-light-primary);
+  text-align: center;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    background-color: var(--blacklist-bg-primary);
-    color: var(--blacklist-text-dark-primary);
-  }
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+  color: var(--blacklist-text-light-secondary);
+  text-align: justify;
+}
 
-  a {
-    color: var(--blacklist-link-secondary);
-    text-decoration: none;
-  }
+a {
+  position: relative;
+  font-size: inherit;
+  text-decoration: none;
+  padding: 0.25rem 0;
+  color: var(--blacklist-link-primary);
 }

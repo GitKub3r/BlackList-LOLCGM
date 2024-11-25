@@ -1,14 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
 .main-header {
-  background-color: black;
+  background-color: var(--blacklist-bg-primary);
   padding: 1rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.main-header h1.main-header-title {
-  font-size: 3rem;
 }
 
 .main-header-nav-list {
@@ -17,4 +15,24 @@
   gap: 1.5rem;
 
   list-style: none;
+}
+
+.main-header a::after {
+  content: "";
+  background-color: var(--blacklist-link-primary);
+
+  position: absolute;
+
+  bottom: -2px;
+  left: 50%;
+
+  width: 0;
+  height: 2px;
+
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.main-header a:hover::after {
+  width: 100%;
+  left: 0;
 }

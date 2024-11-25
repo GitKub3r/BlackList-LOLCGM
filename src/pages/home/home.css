@@ -1,0 +1,50 @@
+.main-container {
+  position: relative;
+  width: var(--blacklist-size-full);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-container {
+  position: relative;
+  z-index: 1;
+  padding: 10%;
+
+  display: flex;
+  place-content: center;
+
+  background-image: url("../../assets/bg-images/league.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.host-info-container {
+  width: var(--blacklist-size-full);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+
+  padding: 10%;
+}
+
+.host-info-wrapper {
+  width: var(--blacklist-size-most);
+}
+
+.community-info-container {
+  width: var(--blacklist-size-full);
+
+  display: flex;
+  place-content: center;
+
+  background-image: url("../../assets/bg-images/aram.jpg");
+  background-size: cover;
+  background-position: center;
+
+  padding: 10%;
+}

@@ -1,9 +1,9 @@
 :root {
   /* CSS Color Variables */
-  --blacklist-bg-primary: #dfdfdf;
-  --blacklist-bg-primary-contrast: #bfbfbf;
-  --blacklist-bg-secondary: #1f1f1f;
-  --blacklist-bg-secondary-contrast: #3f3f3f;
+  --blacklist-bg-primary: #1f1f1f;
+  --blacklist-bg-primary-contrast: #3f3f3f;
+  --blacklist-bg-secondary: #dfdfdf;
+  --blacklist-bg-secondary-contrast: #bfbfbf;
 
   --blacklist-text-dark-primary: #2f2f2f;
   --blacklist-text-dark-secondary: #4f4f4f;
@@ -16,7 +16,7 @@
   --blacklist-link-primary: #ebebeb;
   --blacklist-link-secondary: #0b0b0b;
 
-  --blacklist-button-hover: #323232;
+  --blacklist-button-hover: #090909;
 
   /* CSS Size and Space Variables */
   --blacklist-size-none: 0;

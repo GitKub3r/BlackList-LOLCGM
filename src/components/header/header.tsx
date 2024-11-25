@@ -1,5 +1,6 @@
 import "./header.css";
 import { HeaderProps } from "../../types/HeaderProps";
+import { Link } from "react-router-dom"; // Importamos Link de React Router
 
 export const Header = ({ title, linkSRC }: HeaderProps) => {
   return (
@@ -8,8 +9,8 @@ export const Header = ({ title, linkSRC }: HeaderProps) => {
       <nav className="main-header-nav">
         <ul className="main-header-nav-list">
           {linkSRC.map((link) => (
-            <li className="main-header-nav-list-element">
-              <a href={link.src}>{link.name}</a>
+            <li className="main-header-nav-list-element" key={link.name}>
+              <Link to={link.src}>{link.name}</Link>
             </li>
           ))}
         </ul>

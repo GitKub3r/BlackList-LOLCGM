@@ -1,0 +1,8 @@
+.main-footer {
+  background-color: var(--blacklist-bg-primary);
+  padding: 5%;
+}
+
+.main-footer h1 {
+  font-size: 2rem;
+}
