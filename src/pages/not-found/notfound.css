@@ -1,0 +1,20 @@
+.error-container {
+  width: 100%;
+  padding: 15% 0;
+
+  display: flex;
+  place-content: center;
+
+  background-image: url("../../assets/bg-images/notfound.png");
+}
+
+.error-container .title-group {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 20%;
+}
+
+.error-container .title-group p {
+  background-color: transparent;
+  width: 100%;
+}

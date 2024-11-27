@@ -14,12 +14,7 @@
 }
 
 body {
-  background: linear-gradient(
-    45deg,
-    var(--blacklist-bg-secondary),
-    var(--blacklist-bg-secondary-contrast),
-    var(--blacklist-bg-secondary)
-  );
+  background-color: var(--blacklist-bg-primary);
 }
 
 /* General CSS Styles */
@@ -49,4 +44,14 @@ a {
   text-decoration: none;
   padding: 0.25rem 0;
   color: var(--blacklist-link-primary);
+}
+
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-default-img {
+  background-image: url("../assets/bg-images/default.jpg");
 }

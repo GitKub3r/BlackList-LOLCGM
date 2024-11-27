@@ -5,6 +5,9 @@
   --blacklist-bg-secondary: #eaeaea;
   --blacklist-bg-secondary-contrast: #cecece;
 
+  --blacklist-bg-primary-transparent: rgba(31, 31, 31, 0.8);
+  --blacklist-bg-secondary-transparent: rgba(234, 234, 234, 0.5);
+
   --blacklist-text-dark-primary: #2f2f2f;
   --blacklist-text-dark-secondary: #4f4f4f;
   --blacklist-text-dark-tertiary: #6f6f6f;

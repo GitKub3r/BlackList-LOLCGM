@@ -8,6 +8,7 @@
 }
 
 .info-container {
+  width: var(--blacklist-size-full);
   position: relative;
   z-index: 1;
   padding: 10%;
@@ -15,25 +16,31 @@
   display: flex;
   place-content: center;
 
-  background-image: url("../../assets/bg-images/league.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../../assets/bg-images/database.png");
 }
 
 .host-info-container {
   width: var(--blacklist-size-full);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  gap: 1rem;
-
-  padding: 10%;
 }
 
-.host-info-wrapper {
-  width: var(--blacklist-size-most);
+.host-steps-container {
+  width: var(--blacklist-size-full);
+
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+
+  padding: 7.5%;
+}
+
+.host-info-title {
+  color: var(--blacklist-text-dark-primary);
+  text-align: center;
+
+  font-size: 3.5rem;
+  margin-top: 5%;
 }
 
 .community-info-container {
@@ -43,8 +50,6 @@
   place-content: center;
 
   background-image: url("../../assets/bg-images/aram.jpg");
-  background-size: cover;
-  background-position: center;
 
   padding: 10%;
 }
