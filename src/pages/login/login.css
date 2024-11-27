@@ -1,0 +1,13 @@
+.input-container {
+  width: 35%;
+  box-shadow: 0 0 10px black;
+  border-radius: 5px;
+
+  margin: 2rem 0;
+  padding: 1.5rem;
+}
+
+.main-content {
+  display: flex;
+  place-content: center;
+}
