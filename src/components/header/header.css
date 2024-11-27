@@ -17,7 +17,7 @@
   list-style: none;
 }
 
-.main-header a::after {
+.main-header-nav-list a::after {
   content: "";
   background-color: var(--blacklist-link-primary);
 
@@ -32,7 +32,7 @@
   transition: width 0.3s ease, left 0.3s ease;
 }
 
-.main-header a:hover::after {
+.main-header-nav-list a:hover::after {
   width: 100%;
   left: 0;
 }

@@ -7,12 +7,11 @@ import { Login } from "./pages/login/login";
 import { Hoster } from "./pages/hoster/hoster";
 import { Footer } from "./components/footer/footer";
 
-const HEADER_TITLE = "BlackList";
+const HEADER_TITLE: Link = {
+  name: "BlackList",
+  src: "/home",
+};
 const LINKS: Link[] = [
-  {
-    name: "Home",
-    src: "/home", // Cambiar para usar rutas
-  },
   {
     name: "Log In",
     src: "/login", // Cambiar para usar rutas
