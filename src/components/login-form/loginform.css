@@ -3,14 +3,24 @@
   padding: 10%;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+}
+
+.main-form-container h1 {
+  color: var(--blacklist-text-dark-primary);
+
+  position: absolute;
+  top: 5%;
 }
 
 .main-login-form {
   background-color: var(--blacklist-bg-secondary);
 
-  width: 50%;
+  width: var(--blacklist-size-quarter);
   padding: 2rem;
 
   box-shadow: 0 0 3px black;
