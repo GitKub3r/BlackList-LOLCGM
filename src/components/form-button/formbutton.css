@@ -1,0 +1,20 @@
+.main-form-button {
+  width: 100%;
+  padding: 0.6rem;
+
+  background-color: var(--blacklist-bg-primary);
+  color: var(--blacklist-text-light-primary);
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  border: 1px solid transparent;
+  border-radius: var(--blacklist-border-radius-soft);
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-form-button:hover {
+  background-color: var(--blacklist-button-hover);
+}

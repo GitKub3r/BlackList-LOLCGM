@@ -4,7 +4,7 @@
   background-color: var(--blacklist-bg-primary);
   padding: 1rem;
 
-  border-radius: 5px;
+  border-radius: var(--blacklist-border-radius-soft);
 
   display: flex;
   flex-direction: column;
@@ -30,13 +30,13 @@
   display: flex;
   place-content: center;
 
-  border-radius: 5px;
+  border-radius: var(--blacklist-border-radius-soft);
   padding: 1rem;
 }
 
 .card-image-container img {
   width: 100px;
-  border-radius: 5px;
+  border-radius: var(--blacklist-border-radius-soft);
 }
 
 .card-desc-container {
@@ -45,7 +45,7 @@
   padding: 1rem;
   margin: 1rem 0;
 
-  border-radius: 5px;
+  border-radius: var(--blacklist-border-radius-soft);
 
   height: fit-content;
 }

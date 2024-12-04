@@ -1,18 +1,12 @@
-import { FormInput } from "../../components/form-input/forminput";
+import { LoginForm } from "../../components/login-form/loginform";
 import "./login.css";
+
+const sayHi = () => console.log("hi");
 
 export const Login = () => {
   return (
     <div className="main-content">
-      <div className="input-container">
-        <FormInput label="Username" type="text" name="username-login-field" />
-        <FormInput label="Email" type="email" name="email-login-field" />
-        <FormInput
-          label="Password"
-          type="password"
-          name="password-login-field"
-        />
-      </div>
+      <LoginForm />
     </div>
   );
 };

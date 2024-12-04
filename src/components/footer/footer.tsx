@@ -4,9 +4,17 @@ import "./footer.css";
 export const Footer = ({ label, year }: FooterProps) => {
   return (
     <footer className="main-footer">
-      <h1 className="main-footer-copyright">
-        Copyright &copy; {year} {label}
-      </h1>
+      <div className="main-footer-content">
+        <h1 className="main-footer-copyright">
+          Copyright &copy; {year} {label}
+        </h1>
+      </div>
+
+      <div className="main-footer-link">
+        <span>
+          Apply for a hoster account at <b>blacklistlolcgm@gmail.com</b>
+        </span>
+      </div>
     </footer>
   );
 };

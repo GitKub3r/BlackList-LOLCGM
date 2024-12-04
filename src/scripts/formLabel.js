@@ -1,15 +1,22 @@
-window.onload = () => {
-  const loginFields = document.querySelectorAll("input");
+document.addEventListener("DOMContentLoaded", () => {
+  const observer = new MutationObserver(() => {
+    const loginFields = document.querySelectorAll("input");
+    const labels = document.querySelectorAll("label");
 
-  Array.from(loginFields).forEach((field, index) => {
-    field.addEventListener("change", () => {
-      let aux = document.querySelectorAll("label");
-      let labels = Array.from(aux);
-      if (field.value != "") {
+    Array.from(loginFields).forEach((field, index) => {
+      if (field.value !== "") {
         labels[index].classList.add("move");
-      } else {
-        labels[index].classList.remove("move");
       }
+
+      field.addEventListener("input", () => {
+        if (field.value !== "") {
+          labels[index].classList.add("move");
+        } else {
+          labels[index].classList.remove("move");
+        }
+      });
     });
   });
-};
+
+  observer.observe(document.body, { childList: true, subtree: true });
+});

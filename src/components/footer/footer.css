@@ -1,8 +1,23 @@
 .main-footer {
   background-color: var(--blacklist-bg-primary);
   padding: 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
 }
 
-.main-footer h1 {
+.main-footer-content h1 {
   font-size: 2rem;
+}
+
+.main-footer-link span {
+  color: var(--blacklist-text-light-primary);
+}
+
+.main-footer-link span b {
+  color: var(--blacklist-text-light-tertiary);
 }

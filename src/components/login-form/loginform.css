@@ -1,0 +1,36 @@
+.main-form-container {
+  width: 100%;
+  padding: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-login-form {
+  background-color: var(--blacklist-bg-secondary);
+
+  width: 50%;
+  padding: 2rem;
+
+  box-shadow: 0 0 3px black;
+
+  border: none;
+  border-radius: 5px;
+}
+
+.main-form-link-container {
+  width: 100%;
+  margin: 1rem 0;
+
+  text-align: center;
+}
+
+.main-form-link-container a {
+  color: var(--blacklist-text-dark-tertiary);
+}
+
+.main-form-link-container .hover-link::after {
+  background-color: var(--blacklist-text-dark-tertiary);
+  bottom: 2px;
+}

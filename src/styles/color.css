@@ -36,4 +36,11 @@
 
   --blacklist-size-full: 100%;
   --blacklist-space-full: 100%;
+
+  /* CSS Border Radius Variables */
+  --blacklist-border-radius-none: 0;
+  --blacklist-border-radius-soft: 5px;
+  --blacklist-border-radius-medium: 10px;
+  --blacklist-border-radius-hard: 20px;
+  --blacklist-border-radius-full: 100px;
 }

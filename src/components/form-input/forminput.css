@@ -12,7 +12,7 @@
   background-color: white;
 
   border: 1px solid transparent;
-  border-radius: 5px;
+  border-radius: var(--blacklist-border-radius-soft);
 
   padding: 0.5rem 0;
   outline: none;
@@ -37,11 +37,13 @@
 }
 
 .form-input-container input:focus + label {
+  font-weight: bold;
   top: -25%;
-  left: 1%;
+  left: 1.5%;
 }
 
 label.move {
+  font-weight: bold;
   top: -25%;
-  left: 1%;
+  left: 1.5%;
 }

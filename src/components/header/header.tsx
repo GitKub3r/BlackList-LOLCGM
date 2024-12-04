@@ -12,7 +12,9 @@ export const Header = ({ title, linkSRC }: HeaderProps) => {
         <ul className="main-header-nav-list">
           {linkSRC.map((link) => (
             <li className="main-header-nav-list-element" key={link.name}>
-              <Link to={link.src}>{link.name}</Link>
+              <Link to={link.src} className="hover-link">
+                {link.name}
+              </Link>
             </li>
           ))}
         </ul>

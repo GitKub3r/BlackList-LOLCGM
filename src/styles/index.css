@@ -38,12 +38,33 @@ p {
   text-align: justify;
 }
 
-a {
+a,
+.hover-link {
   position: relative;
   font-size: inherit;
   text-decoration: none;
   padding: 0.25rem 0;
   color: var(--blacklist-link-primary);
+}
+
+.hover-link::after {
+  content: "";
+  background-color: var(--blacklist-bg-secondary);
+
+  position: absolute;
+
+  bottom: -2px;
+  left: 50%;
+
+  width: 0;
+  height: 2px;
+
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.hover-link:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 .bg-image {

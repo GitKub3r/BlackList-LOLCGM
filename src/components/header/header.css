@@ -16,23 +16,3 @@
 
   list-style: none;
 }
-
-.main-header-nav-list a::after {
-  content: "";
-  background-color: var(--blacklist-link-primary);
-
-  position: absolute;
-
-  bottom: -2px;
-  left: 50%;
-
-  width: 0;
-  height: 2px;
-
-  transition: width 0.3s ease, left 0.3s ease;
-}
-
-.main-header-nav-list a:hover::after {
-  width: 100%;
-  left: 0;
-}
