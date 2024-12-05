@@ -12,7 +12,10 @@ export const Footer = ({ label, year }: FooterProps) => {
 
       <div className="main-footer-link">
         <span>
-          Apply for a hoster account at <b>blacklistlolcgm@gmail.com</b>
+          Apply for a hoster account at{" "}
+          <b>
+            <u>blacklistlolcgm@gmail.com</u>
+          </b>
         </span>
       </div>
     </footer>
