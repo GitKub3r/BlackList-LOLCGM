@@ -6,14 +6,12 @@ export const Card = ({ title, desc, src, date }: CardProps) => {
     <div className="card-container">
       <div className="card-title-container">
         <h1 className="card-title">{title}</h1>
-        <p className="card-date">{date}</p>
+        <div className="card-stamp">
+          <img src={src} alt="card-image" />
+        </div>
       </div>
 
       <hr className="card-separator" />
-
-      <div className="card-image-container">
-        <img src={src} alt="card-image" />
-      </div>
 
       <div className="card-desc-container">
         <p className="card-desc">{desc}</p>

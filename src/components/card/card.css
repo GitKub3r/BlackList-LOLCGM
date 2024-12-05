@@ -34,13 +34,14 @@
   padding: 1rem;
 }
 
-.card-image-container img {
-  width: 100px;
+.card-stamp img {
+  width: 50px;
   border-radius: var(--blacklist-border-radius-soft);
 }
 
 .card-desc-container {
   background-color: var(--blacklist-bg-primary-contrast);
+  min-height: 150px;
 
   padding: 1rem;
   margin: 1rem 0;
