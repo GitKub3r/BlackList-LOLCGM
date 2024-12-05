@@ -20,7 +20,7 @@
 .main-login-form {
   background-color: var(--blacklist-bg-secondary);
 
-  width: var(--blacklist-size-quarter);
+  width: var(--blacklist-size-full);
   padding: 2rem;
 
   box-shadow: 0 0 3px black;
@@ -45,13 +45,25 @@
   bottom: 2px;
 }
 
-@media (max-width: 1500px) {
+@media (min-width: 1250px) {
+  .main-login-form {
+    width: var(--blacklist-size-quarter);
+  }
+}
+
+@media (min-width: 1000px) {
   .main-login-form {
     width: var(--blacklist-size-half);
   }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
+  .main-login-form {
+    width: var(--blacklist-size-most);
+  }
+}
+
+@media (max-width: 499px) {
   .main-login-form {
     width: var(--blacklist-size-full);
   }

@@ -18,3 +18,9 @@
   background-color: transparent;
   text-align: center;
 }
+
+@media (max-width: 450px) {
+  .title-group {
+    width: var(--blacklist-size-full);
+  }
+}

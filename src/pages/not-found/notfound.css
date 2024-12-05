@@ -1,6 +1,6 @@
 .error-container {
   width: 100%;
-  padding: 15% 0;
+  padding: 5rem 1rem;
 
   display: flex;
   place-content: center;
@@ -11,10 +11,9 @@
 .error-container .title-group {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 20%;
 }
 
 .error-container .title-group p {
   background-color: transparent;
-  width: 100%;
+  width: var(--blacklist-size-full);
 }
