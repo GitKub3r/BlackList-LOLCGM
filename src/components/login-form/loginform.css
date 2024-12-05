@@ -44,3 +44,15 @@
   background-color: var(--blacklist-text-dark-tertiary);
   bottom: 2px;
 }
+
+@media (max-width: 1500px) {
+  .main-login-form {
+    width: var(--blacklist-size-half);
+  }
+}
+
+@media (max-width: 500px) {
+  .main-login-form {
+    width: var(--blacklist-size-full);
+  }
+}

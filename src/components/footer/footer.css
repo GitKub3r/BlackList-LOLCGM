@@ -1,17 +1,23 @@
 .main-footer {
+  min-height: 150px;
   background-color: var(--blacklist-bg-primary);
   padding: 5%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
   gap: 1rem;
 }
 
 .main-footer-content h1 {
   font-size: 2rem;
+}
+
+.main-footer-link {
+  width: 100%;
+  text-align: center;
 }
 
 .main-footer-link span {

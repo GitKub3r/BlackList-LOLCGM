@@ -11,7 +11,7 @@
   width: var(--blacklist-size-full);
   position: relative;
   z-index: 1;
-  padding: 10%;
+  padding: 5rem 1rem;
 
   display: flex;
   place-content: center;
@@ -30,9 +30,9 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 3rem;
+  gap: 5rem;
 
-  padding: 7.5%;
+  padding: 5rem 1rem;
 }
 
 .host-info-title {
@@ -52,4 +52,10 @@
   background-image: url("../../assets/bg-images/aram.jpg");
 
   padding: 10%;
+}
+
+@media (max-width: 450px) {
+  .title-group {
+    width: var(--blacklist-size-full);
+  }
 }
