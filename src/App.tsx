@@ -5,29 +5,24 @@ import {
   Navigate,
 } from "react-router-dom";
 import { Header } from "./components/header/header";
-import { Link } from "./types/Link";
+import { LinkProps } from "./types/LinkProps";
 import { Home } from "./pages/home/home";
 import { Login } from "./pages/login/login";
 import { Hoster } from "./pages/hoster/hoster";
 import { Footer } from "./components/footer/footer";
 import { NotFound } from "./pages/not-found/notfound";
 
-const HEADER_TITLE: Link = {
+const HEADER_TITLE: LinkProps = {
   name: "BlackList",
   src: "/home",
 };
-const LINKS: Link[] = [
-  {
-    name: "Log In",
-    src: "/login", // Cambiar para usar rutas
-  },
-];
+
 const currentYear = new Date().getFullYear();
 
 function App() {
   return (
     <Router>
-      <Header title={HEADER_TITLE} linkSRC={LINKS} />
+      <Header title={HEADER_TITLE} />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="*" element={<NotFound />} />

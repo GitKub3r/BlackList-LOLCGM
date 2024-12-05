@@ -1,0 +1,25 @@
+@media (min-width: 500px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .hide-on-desktop {
+    display: inline-block;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .main-header-nav-list #open-sidebar {
+    padding: 0.5rem;
+    box-shadow: 0 0 1px var(--blacklist-bg-secondary);
+    border-radius: var(--blacklist-border-radius-soft);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

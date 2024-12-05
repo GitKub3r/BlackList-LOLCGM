@@ -1,5 +1,5 @@
-import { Link } from "./Link";
+import { LinkProps } from "./LinkProps";
 
 export type LinkedButtonProps = {
-  link: Link;
+  link: LinkProps;
 };

@@ -1,4 +1,4 @@
-export type Link = {
+export type LinkProps = {
   name: string;
   src: string;
 };

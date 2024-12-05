@@ -1,7 +1,7 @@
 import { Card } from "../../components/card/card";
 import { LinkedButton } from "../../components/linked-button/linkedbutton";
 import { TitleGroup } from "../../components/title-group/titlegroup";
-import { Link } from "../../types/Link";
+import { LinkProps } from "../../types/LinkProps";
 
 import mail from "../../assets/icons/mail.png";
 import clock from "../../assets/icons/clock.png";
@@ -16,7 +16,7 @@ const HOST_INFO_TITLE = "Become a Hoster";
 const HOST_INFO_DESC =
   "To access BlackList service you need a Hoster Account. Those accounts are given to people who has proven been an active member in the Custom Games community";
 
-const HOST_LINK: Link = {
+const HOST_LINK: LinkProps = {
   name: "Apply Now",
   src: "/hoster",
 };

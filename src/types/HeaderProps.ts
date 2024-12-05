@@ -1,6 +1,5 @@
-import { Link } from "./Link";
+import { LinkProps } from "./LinkProps";
 
 export type HeaderProps = {
-  title: Link;
-  linkSRC: Link[];
+  title: LinkProps;
 };

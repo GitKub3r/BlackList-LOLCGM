@@ -9,10 +9,16 @@
   align-items: center;
 }
 
-.main-header-nav-list {
+.main-header-nav-list,
+.main-header-sidebar {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
 
   list-style: none;
+}
+
+.main-header-nav-list {
+  position: relative;
+  z-index: 0;
 }
