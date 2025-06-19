@@ -10,5 +10,11 @@
 html {
   font-size: 16px;
   font-weight: 400;
+  font-family: "Nunito Sans", "Nunito", "Poppins", sans-serif;
   scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  background: var(--blacklist-background);
 }

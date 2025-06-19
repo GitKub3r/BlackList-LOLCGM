@@ -1,5 +1,9 @@
 :root {
-  --blacklist-background: linear-gradient(135deg, #1a1a1a, #3c3c3c);
+  --blacklist-background: radial-gradient(
+    ellipse at 50% 100%,
+    #481948 -100%,
+    #000000 100%
+  );
 
   --blacklist-primary: #1a1a1a;
   --blacklist-primary-contrast: #f0f0f0;
@@ -7,4 +11,24 @@
   --blacklist-secondary-contrast: #e0e0e0;
   --blacklist-tertiary: #5c5c5c;
   --blacklist-tertiary-contrast: #d0d0d0;
+
+  --blacklist-text: #ffffff;
+  --blacklist-text-contrast: #000000;
+  --blacklist-text-secondary: #b0b0b0;
+  --blacklist-text-muted: #808080;
+  --blacklist-text-muted-contrast: #404040;
+
+  --blacklist-modal: #2a2a2a;
+
+  --blacklist-success: #28a745;
+  --blacklist-success-contrast: #32ce57;
+
+  --blacklist-error: #dc3545;
+  --blacklist-error-contrast: #ff6b6b;
+
+  --blacklist-warning: #ffc107;
+  --blacklist-warning-contrast: #ffca2c;
+
+  --blacklist-info: #1757b8;
+  --blacklist-info-contrast: #1a6edc;
 }
