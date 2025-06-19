@@ -1,0 +1,10 @@
+:root {
+  --blacklist-background: linear-gradient(135deg, #1a1a1a, #3c3c3c);
+
+  --blacklist-primary: #1a1a1a;
+  --blacklist-primary-contrast: #f0f0f0;
+  --blacklist-secondary: #3c3c3c;
+  --blacklist-secondary-contrast: #e0e0e0;
+  --blacklist-tertiary: #5c5c5c;
+  --blacklist-tertiary-contrast: #d0d0d0;
+}
