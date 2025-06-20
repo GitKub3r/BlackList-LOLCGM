@@ -1,0 +1,21 @@
+.login-page-container {
+  min-height: 50dvh;
+}
+
+.main-app-login-form {
+  width: 35%;
+  height: auto;
+  padding: var(--blacklist-size-lg);
+  gap: var(--blacklist-size-default);
+}
+
+.main-app-login-form-forgot-password {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: var(--blacklist-text-secondary);
+}
+
+.main-app-login-form-input-container {
+  gap: var(--blacklist-size-default);
+}

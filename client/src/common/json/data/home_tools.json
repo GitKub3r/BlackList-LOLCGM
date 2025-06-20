@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Manage your Lobby",
+    "description": "Easy management of your lobby rules and bans",
+    "image": "assets/home_tools/manage_lobby.jpg"
+  },
+
+  {
+    "title": "Register Players",
+    "description": "Add disruptive players into our system",
+    "image": "assets/home_tools/register_players.png"
+  },
+
+  {
+    "title": "Keep an Eye Out",
+    "description": "Monitor players ban activity and report issues",
+    "image": "assets/home_tools/keep_eye_out.jpg"
+  }
+]

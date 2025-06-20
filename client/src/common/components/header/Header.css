@@ -1,0 +1,27 @@
+.main-app-header {
+  width: 100%;
+  padding: var(--blacklist-size-default) 2.5%;
+  color: inherit;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-app-header-title-link,
+.main-app-header-nav-link {
+  color: inherit;
+}
+
+.main-app-header-nav-link::after {
+  background-color: var(--blacklist-text);
+}
+
+.main-app-header-title {
+  font-family: "Protest Guerrilla", "Nunito Sans", "Nunito", "Poppins",
+    sans-serif;
+  font-size: var(--blacklist-size-xxl);
+}
+
+.main-app-header-nav-list {
+  gap: var(--blacklist-size-xl);
+}

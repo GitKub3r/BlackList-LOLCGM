@@ -1,0 +1,27 @@
+[
+  {
+    "title": "What is BlackList about?",
+    "description": "BlackList is a web application designed to enhance your League of Legends experience by providing tools and resources for Hosters. Keep disruptive players away from your lobbies, and easily manage your lobbies rules and champion bans.",
+    "image": "icons/missing-ping.webp"
+  },
+
+  {
+    "title": "What is a Hoster Account?",
+    "description": "To fully utilize BlackList, you need a Hoster Account. Within this account, you can lookup for global player bans, register problematic players, and manage your custom lobbies. All of BlackList's features are only available for players with a Hoster Account.",
+    "image": "icons/league-icon.webp",
+    "reverse": true
+  },
+
+  {
+    "title": "How can I become a Hoster?",
+    "description": "Hoster Accounts are available for certain players who are actively hosting custom lobbies. If you think you are eligible, please contact us through our <a href='/contact'>Contact</a> page. We will review your request and get back to you as soon as possible.",
+    "image": "icons/clash-ticket-icon.png"
+  },
+
+  {
+    "title": "How does the review process work?",
+    "description": "Once you submit your request to become a Hoster, our team will review the information you provided, such as your summoner name and tag, if you got blacklisted in our system, we will send a verification message to your account. This process ensures that only eligible players can become Hosters and use BlackList's features.",
+    "image": "icons/check-icon.png",
+    "reverse": true
+  }
+]

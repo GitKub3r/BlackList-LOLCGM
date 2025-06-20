@@ -1,0 +1,17 @@
+:root {
+  --blacklist-size-xxs: 0.25rem;
+  --blacklist-size-xs: 0.5rem;
+  --blacklist-size-sm: 0.75rem;
+  --blacklist-size-default: 1rem;
+  --blacklist-size-md: 1.25rem;
+  --blacklist-size-lg: 1.5rem;
+  --blacklist-size-xl: 2rem;
+  --blacklist-size-xxl: 3rem;
+
+  --blacklist-border-radius-sm: 0.125rem;
+  --blacklist-border-radius: 0.25rem;
+  --blacklist-border-radius-lg: 0.5rem;
+  --blacklist-border-radius-xl: 0.75rem;
+  --blacklist-border-radius-rounded: 1.25rem;
+  --blacklist-border-radius-full: 9999px;
+}

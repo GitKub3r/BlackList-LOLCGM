@@ -1,0 +1,39 @@
+.main-input-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.main-input-field {
+  width: 100%;
+  padding: var(--blacklist-size-sm) var(--blacklist-size-xs);
+  background-color: var(--blacklist-input);
+  border: 1px solid transparent;
+  border-radius: var(--blacklist-border-radius);
+  color: var(--blacklist-text);
+  font-size: var(--blacklist-size-sm);
+}
+
+.main-input-field:focus {
+  border-color: var(--blacklist-tertiary);
+  outline: none;
+}
+
+.main-input-label {
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+.main-input-label:hover {
+  cursor: text;
+}
+
+.main-input-label.active {
+  top: 20%;
+  left: 2%;
+  font-size: var(--blacklist-size-sm);
+}

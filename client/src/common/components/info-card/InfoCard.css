@@ -1,0 +1,65 @@
+.blacklist-info-card {
+  width: 100%;
+  height: 25rem;
+  padding: var(--blacklist-size-default);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: var(--blacklist-size-sm);
+  position: relative;
+
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s;
+  will-change: transform;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  perspective: 800px;
+}
+
+.blacklist-info-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0; /* Cambia bottom por top */
+  height: 10rem;
+  border-radius: var(--blacklist-size-sm) var(--blacklist-size-sm) 0 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.blacklist-info-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6rem;
+  border-radius: 0 0 var(--blacklist-size-sm) var(--blacklist-size-sm);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.35), transparent);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.blacklist-info-card.left:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+}
+
+.blacklist-info-card.right:hover {
+  transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+}
+
+.blacklist-info-card-text-container {
+  text-align: center;
+}
+
+.blacklist-info-card-title {
+  font-size: var(--blacklist-size-lg);
+}
+
+.blacklist-info-card-subtitle {
+  height: 3.5rem;
+}

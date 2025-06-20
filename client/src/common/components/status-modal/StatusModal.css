@@ -1,0 +1,42 @@
+.status-modal {
+  min-width: auto;
+  max-width: 35rem;
+  padding: var(--blacklist-size-lg);
+  border-left: 0.5rem solid transparent;
+  border-radius: var(--blacklist-border-radius);
+  background-color: var(--blacklist-primary);
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 2rem);
+  z-index: 9999;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.status-modal-animate-in {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.status-modal-animate-out {
+  opacity: 0;
+  transform: translate(-50%, -2rem);
+  pointer-events: none;
+}
+
+.success {
+  border-color: var(--blacklist-success);
+}
+
+.error {
+  border-color: var(--blacklist-error);
+}
+
+.warning {
+  border-color: var(--blacklist-warning);
+}
+
+.info {
+  border-color: var(--blacklist-info);
+}

@@ -1,0 +1,21 @@
+.blacklist-info-card-layout {
+  width: 100%;
+  margin: var(--blacklist-size-xl) 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 15rem));
+  gap: var(--blacklist-size-md);
+  justify-content: space-between;
+  position: relative;
+}
+
+.blacklist-info-card-layout::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--blacklist-text-muted-contrast);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+  z-index: -1;
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Welcome to BlackList",
+    "subtitle": "A LOLCGM Web Application",
+    "description": "Enjoy a powerful and easy to use web application for your League of Legends Custom Games. Keep track of problematic players, post your custom rules and automatize your champion bans. BlackList is your go-to toolset for managing custom matches efficiently.",
+    "image": "logos/main-logo.png"
+  },
+
+  {
+    "title": "Start using BlackList",
+    "subtitle": "Become a Hoster",
+    "description": "Step into the world of League of Legends Custom Gamemodes with BlackList, your go-to toolset for managing custom matches efficiently. Become an official LOLCGM Hoster to unlock all features and tools. For more info, check our <a href='/about'>About</a> page.",
+    "image": "logos/lolcgm-logo.png",
+    "reverse": true
+  }
+]

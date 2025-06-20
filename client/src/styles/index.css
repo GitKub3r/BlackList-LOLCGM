@@ -1,5 +1,7 @@
 @import "./color-palette.css";
 @import "./fonts.css";
+@import "./classes.css";
+@import "./sizes.css";
 
 * {
   margin: 0;
@@ -17,4 +19,56 @@ html {
 body {
   min-height: 100dvh;
   background: var(--blacklist-background);
+  color: var(--blacklist-text);
+  padding-top: 5rem;
+}
+
+div#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blacklist-link);
+  font-weight: bold;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+
+  border-radius: var(--blacklist-border-radius);
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+hr {
+  margin: var(--blacklist-size-sm) 0;
+}
+
+button {
+  width: 100%;
+  padding: var(--blacklist-size-sm) var(--blacklist-size-xs);
+  background: var(--blacklist-button);
+  border: 1px solid transparent;
+  border-radius: var(--blacklist-border-radius);
+  color: var(--blacklist-text);
+  font-size: var(--blacklist-size-sm);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.025);
 }

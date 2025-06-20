@@ -1,0 +1,11 @@
+.about-page-container {
+  gap: 5rem;
+}
+
+.about-page-container div.blacklist-message-box:nth-child(even) {
+  padding: var(--blacklist-size-default) var(--blacklist-size-lg);
+  background: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(10px);
+  border-radius: var(--blacklist-border-radius-lg);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}

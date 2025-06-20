@@ -1,0 +1,19 @@
+{
+  "About": {
+    "label": "About",
+    "icon": "about.csv",
+    "url": "/about"
+  },
+
+  "Contact": {
+    "label": "Contact",
+    "icon": "contact.csv",
+    "url": "/contact"
+  },
+
+  "Login": {
+    "label": "Login",
+    "icon": "login.csv",
+    "url": "/login"
+  }
+}

@@ -1,0 +1,29 @@
+.blacklist-message-box {
+  width: 100%;
+  margin: var(--blacklist-size-default) 0;
+
+  gap: 10%;
+}
+
+.blacklist-message-box-reversed {
+  text-align: right;
+}
+
+.blacklist-message-box-subtitle {
+  font-size: var(--blacklist-size-md);
+  color: var(--blacklist-text-muted);
+}
+
+.blacklist-message-box-description {
+  font-size: var(--blacklist-size-md);
+  text-align: justify;
+  color: var(--blacklist-text-secondary);
+  margin: var(--blacklist-size-sm) 0;
+  line-height: 1.5;
+}
+
+.blacklist-message-box-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: var(--blacklist-border-radius);
+}

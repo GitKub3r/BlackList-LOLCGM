@@ -1,0 +1,25 @@
+{
+  "System Users": {
+    "label": "System Users",
+    "icon": "users.csv",
+    "url": "/users"
+  },
+
+  "System Champions": {
+    "label": "System Champions",
+    "icon": "champions.csv",
+    "url": "/champions"
+  },
+
+  "System Database": {
+    "label": "Database",
+    "icon": "database.csv",
+    "url": "/database"
+  },
+
+  "Account": {
+    "label": "Account",
+    "icon": "account.csv",
+    "url": "/account"
+  }
+}
